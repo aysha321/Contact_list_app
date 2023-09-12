@@ -14,7 +14,7 @@ Pages/EditContact: Contains the EditContact.js component for editing existing co
 
 
 Properties and Functions:- 
-contact list: An array containing the list of contacts.
+Contact list: An array containing the list of contacts.
 setContactList: A function to update the contactList state.
 loading: A boolean state to track loading status.
 setIsLoading: A function to update the isLoading state.
@@ -25,7 +25,7 @@ numberRef: A useRef to hold the phone number input reference.
 handleClear: A function to reset input fields after performing actions.
 
 Components/Home/Home.js :-
-contactList: Array of contacts to be displayed.
+Contact list: Array of contacts to be displayed.
 isLoading: Boolean indicating if contacts are being fetched.
 deleteContact: Function to delete a contact from the list.
 
@@ -41,12 +41,12 @@ handleClear: Function to reset input fields.
 handleSubmit: Function to add a new contact.
 
 Pages/EditContact/EditContact.js :-
-contactList: Array of contacts to be displayed.
+contact list: Array of contacts to be displayed.
 nameRef, emailRef, numberRef: useRef references for input fields.
 handleClear: Function to reset input fields.
 handleSubmit: Function to edit an existing contact.
 
-Instructions :- 
+Instructions:- 
 Clone the repository and navigate to the project directory.
 Run npm install to install the project dependencies.
 Run npm start to start the development server.
